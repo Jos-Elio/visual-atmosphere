@@ -28,6 +28,7 @@ Challenges included setting up robust HTML structure with JavaScript (app.js) to
 - Preset saving
 - User-uploaded visuals
 - Backend for media management
+- improve mobile view
 
 #### Deployment
 Live version: https://jos-elio.github.io/visual-atmosphere/
