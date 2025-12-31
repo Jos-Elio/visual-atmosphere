@@ -30,7 +30,7 @@ Challenges included setting up robust HTML structure with JavaScript (app.js) to
 - Backend for media management
 
 #### Deployment
-Live version: https://DEIN-LINK
+Live version: https://jos-elio.github.io/visual-atmosphere/
 
 #### Design Choices
 JavaScript was used to control video playback, visual filters, fullscreen behavior, and user interaction through sliders and buttons. I chose to use native browser APIs instead of external libraries to better understand how media elements, events, and state management work in vanilla JavaScript. JavaScript is also used to load partials of header.html and footer.html in each HTML file.
