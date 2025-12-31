@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Atmosphere – Jos Elio Angel</title>
+        <link rel="stylesheet" href="css/styles.css">
+        <style>
+            body {
+                background: #111;
+                color: white;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="header"></div>
+
+        <div id="info-modal" class="modal">
+            <div class="modal-content">
+                 <button id="close-modal">×</button>
+
+                <h2>Interactive Visuals</h2>
+                <p>Play with loops of the visuals I created for my live shows:</p>
+                <p>
+                    Adjust color, contrast and speed to shape the visual atmosphere.
+                    Use it with your own music or the built-in track.
+                </p>
+            </div>
+        </div>
+
+        <main>
+            <div id="visual-container">
+                <video id="visual" src="assets/visuals/1.mp4" autoplay muted loop playsinline></video>
+                <button id="fullscreen-exit-btn" aria-label="exit fullscreen">✕</button>
+            </div>
+
+            <div class="controls">
+                <button id="fullscreen-btn">Fullscreen</button>
+
+                <h3>Select Visual Loops</h3>
+                <div class="video-switch">
+                    <button data-video="1.mp4">CHANGE</button>
+                    <button data-video="2.mp4">CURRENTS</button>
+                    <button data-video="3.mp4">SOFT</button>
+                </div>
+
+                <h3>Adjust Visuals</h3>
+
+                <label>
+                    Color
+                    <input type="range" id="hue" min="0" max="360" value="180">
+                </label>
+
+                <label>
+                    Contrast
+                    <input type="range" id="contrast" min="50" max="200" value="100">
+                </label>
+
+                <label>
+                    Speed
+                    <input type="range" id="speed" min="0.5" max="1.5" step="0.01" value="1">
+                </label>
+
+                <h3>Visual Presets</h3>
+                <div class="presets">
+                    <button data-preset="calm">Calm</button>
+                    <button data-preset="cozy">Cozy</button>
+                    <button data-preset="frenzy">Frenzy</button>
+                </div>
+
+                <h3>Play Audio "Jos Elio Angel – Change"</h3>
+                <button id="play-btn">Play</button>
+
+                <label>
+                    Volume
+                    <input type="range" id="volume" min="0" max="1" step="0.01" value="0.5">
+                </label>
+            </div>
+
+            <audio id="audio" src="assets/audio/JosElioAngel_soft_change.mp3" loop></audio>
+
+        </main>
+
+        <div id="footer"></div>
+
+        <script src="js/app.js"></script>
+    </body>
+</html>
