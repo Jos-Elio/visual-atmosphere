@@ -1,5 +1,5 @@
 # VISUAL ATMOSPHERE GENERATOR
-#### Video Demo:  <URL HERE>
+#### Video Demo:  <https://youtu.be/Cw4CGb1ATpI>
 #### Description:
 My Final Project is an interactive audiovisual artist website.
 The Visual Atmosphere Generator is a web-based audiovisual instrument that allows users to explore looping visuals with real-time color, contrast, and motion adjustments, either with a built-in audio track or their own music.
